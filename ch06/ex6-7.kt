@@ -1,0 +1,6 @@
+// 6.3 인라인 클래스(값 클래스)
+
+class Dollar(val amount: Int)  // amount의 단위는 센트
+class Euro(val amount: Int)    // amount의 단위는 센트
+fun Dollar.toEuro() = ...
+fun Euro.toDollar() = ...
